@@ -6,20 +6,22 @@ import { NavLink } from "react-router-dom";
 //import Aside from "./Aside/Aside";
 
 function App() {
-  return ( <>
-    <NavLink to="admin">
-      <button className='my-button'>Go to AdminProfile</button>
-    </NavLink>
-    <NavLink to="movies">
-      <button className='my-button'>Go to Movies</button>
-    </NavLink>
-    <NavLink to="register">
-      <button className='my-button'>Go to Register</button>
-    </NavLink>
-    <NavLink to="login">
-      <button className='my-button'>Go to Login</button>
-    </NavLink>
-  </>)
+  return (
+    <>
+      <NavLink to="admin">
+        <button className="my-button">Go to AdminProfile</button>
+      </NavLink>
+      <NavLink to="movies">
+        <button className="my-button">Go to Movies</button>
+      </NavLink>
+      <NavLink to="login">
+        <button className="my-button">Go to Login</button>
+      </NavLink>
+      <NavLink to="register">
+        <button className="my-button">Go to Register</button>
+      </NavLink>
+    </>
+  );
 }
 
 export default App;

@@ -3,6 +3,7 @@ import "./movies.css";
 import "react-slideshow-image/dist/styles.css";
 import { Slide } from "react-slideshow-image";
 
+/*This component owns to home*/
 const Movies = () => {
   const images = [
     "https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg",

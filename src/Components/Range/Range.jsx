@@ -1,10 +1,10 @@
 import React from "react";
 
-const Aside = () => {
+const Range = () => {
   return (
     <>
+      <h2>Average</h2>
       <aside>
-        <h2>Average</h2>
         <h3>Ranking</h3>
         <input type="range" min={0} max={5} />
       </aside>
@@ -12,4 +12,4 @@ const Aside = () => {
   );
 };
 
-export default Aside;
+export default Range;

@@ -1,5 +1,6 @@
 import React from "react";
 import "./login.css";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   function handleSubmit(e) {
@@ -37,10 +38,9 @@ const Login = () => {
             onSubmit={(e) => e.preventDefault}
           />
         </div>
-        Are you new at x?{" "}
-        <a href="" className="a-log-reg">
-          Sign up
-        </a>
+        Are you new at x?
+        <Link to="register">Register</Link>
+        Sign up
       </form>
     </>
   );
