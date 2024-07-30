@@ -1,0 +1,26 @@
+#login-form {
+  font-family: cursive;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: linear-gradient(skyblue, orangered);
+  box-shadow: 20px 20px 20px black;
+  border-radius: 5%;
+}
+
+.input-form {
+  font-family: cursive;
+  margin: auto;
+  text-align: center;
+  border: 0;
+  outline: none;
+}
+
+.div-form {
+  display: flex;
+  flex-direction: row;
+}

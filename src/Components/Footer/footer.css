@@ -1,0 +1,10 @@
+footer {
+  background-color: burlywood;
+  display: flex;
+  bottom: 0;
+  justify-content: space-around;
+}
+
+p {
+  display: flex;
+}
